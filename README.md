@@ -9,6 +9,7 @@ leetcode 数据结构初级算法数组的第一题
 主要就是遍历数组遇到和之前重复的就跳过继续往下走，如果不重复的话就记录位置，再用一个变量记录不同项的数量。
 
 int removeDuplicates(int* nums, int numsSize) {
+
     if(numsSize==0) return 0;
     int k=1;
     for(int i=1;i<numsSize;i++)  //从第2个开始 到最后一个
